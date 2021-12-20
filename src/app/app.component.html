@@ -1,1 +1,17 @@
+
+<p-menubar [model]="items"></p-menubar>
+
+<!-- <p-accordion>
+  <p-accordionTab
+    *ngFor="let post of posts$ | async; index as i;"
+    [header]="post?.attributes?.title"
+    [selected]="i"
+  >
+    <p>{{ post?.attributes?.desc }}</p>
+    <p>
+      {{ post?.attributes?.createdAt | date }}
+    </p>
+  </p-accordionTab>
+</p-accordion> -->
+
 <router-outlet></router-outlet>

@@ -1,3 +1,4 @@
+import { MenuItem } from 'primeng/api';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'strapi-ng-client';
+  items: MenuItem[] = [
+    {
+      label: 'Home',
+      routerLink: '/',
+    },
+    {
+      label: 'About',
+      routerLink: '/about',
+    },
+  ];
 }

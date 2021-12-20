@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  api: "https://strapi-nk-deploy.herokuapp.com/api/"
+  api: "http://localhost:1337/api/"
 };
 
 /*
